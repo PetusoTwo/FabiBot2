@@ -83,7 +83,7 @@ client.sendMessage(from, 'Hola,felicidades, has logrado enviar un mensaje median
 break
                 
 case 'Foto':
-const: imagen = fs.readFileSync('./media/IMG-20211211-WA0500.jpg')
+const imagen = fs.readFileSync('./media/IMG-20211211-WA0500.jpg')
 client.sendMessage(from, imagen, MessageType.image)
 break
 
