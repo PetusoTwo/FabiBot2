@@ -104,3 +104,15 @@ const: audio3 = fs.readFileSync( '.media/y2meta.com - calla fan de BTS (goku) _ 
 client.sendMessage(from, audio3, MessageType.mp3,
 {quoted: sam, mimetype: 'y2meta.com - calla fan de BTS (goku) _ meme (320 kbps).mp3', duration: 120})
 break
+
+}
+
+} catch(e) {
+
+console.log(e)}
+
+})
+}
+iniciar()
+.catch (err => console.log("unexpected error: "+ 
+err))
