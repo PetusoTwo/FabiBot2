@@ -88,7 +88,7 @@ client.sendMessage(from, imagen, MessageType.image)
 break
 
 case 'Me lo voy a cojer': 
-conts: audio = fs.readFileSync('./media/y2meta.com - ME LA VOY A COJ3R __ Goku (320 kbps).mp3')
+conts: audio = fs.readFileSync('.media/y2meta.com - ME LA VOY A COJ3R __ Goku (320 kbps).mp3')
 client.sendMessage(from, audio, MessageType.audio,
 {quoted: sam, Mimetype: 'y2meta.com - ME LA VOY A COJ3R __ Goku (320 kbps).mp3', duration: -800})
 
