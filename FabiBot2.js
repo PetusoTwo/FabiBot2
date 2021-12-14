@@ -92,3 +92,11 @@ console.log(e)}
 }
 iniciar ()
 .catch (err => console.log("unexpected error: " + err))
+
+case 'Audios':
+client.sendMessage(from, 'Hola, Gracias por usar mi bot, los audios que puede enviar el bot: 
+•Buenas noches
+•Hablen carajo
+•Ara Ara
+•Joder, text, {quoted : sam})
+
