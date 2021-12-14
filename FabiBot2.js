@@ -94,15 +94,33 @@ client.sendMessage(from, audio, MessageType.audio,
 break
 
 case 'hablen':
-const audio2 = fs.readFileSync('.media/hblencarajo.mp3')
+const audio2 = fs.readFileSync('.media/hablencarajo.mp3')
 client.sendMessage(from, audio2, MessageType.audio,
-{quoted: sam, mimetype: 'hblencarajo.mp3', duration: 8000})
+{quoted: sam, mimetype: 'hablencarajo.mp3', duration: 8000})
 break
 
 case 'coño':
-const audio3 = fs.readFileSync( '.media/coño.mp3')
+const audio3 = fs.readFileSync('.media/coño.mp3')
 client.sendMessage(from, audio3, MessageType.mp3,
 {quoted: sam, mimetype: 'coño.mp3', duration: 120})
+break
+
+caste 'cojer' 
+const audio4 = fs.readFileSync('.media/cojer.mp3')
+client.sendMessage(from, audio4, MessageType.audio,
+{quoted: sam, mimetype: 'cojer.mp3', duration: -89999})
+break
+
+caste 'bts' 
+const audio5 = fs.readFileSync('.media/bts.mp3')
+client.sendMessage(from, audio5, MessageType.audio,
+{quoted: sam, mimetype: 'bts.mp3', duration: 89})
+break
+
+caste 'Quienes' 
+const audio6 = fs.readFileSync('.media/Quienes.mp3')
+client.sendMessage(from, audio6, MessageType.audio,
+{quoted: sam, mimetype: 'Quienes.mp3', duration: 900})
 break
 
 }
