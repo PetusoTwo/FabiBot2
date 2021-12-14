@@ -107,12 +107,11 @@ break
 
 }
 
-} catch(e) {
-
+} catch (e) {
+        
 console.log(e)}
-
-})
+        
+})      
 }
-iniciar()
-.catch (err => console.log("unexpected error: "+ 
-err))
+iniciar ()
+.catch (err => console.log("unexpected error: " + err))
