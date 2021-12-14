@@ -93,7 +93,7 @@ console.log(e)}
 iniciar ()
 .catch (err => console.log("unexpected error: " + err))
 
-case 'Foto':
+case'Foto':
 conts: imagen = fs.readFileSync('./media/IMG-20211211-WA0500.jpg')
 client.sendMessage(from, image, MessageType.image)
 break
