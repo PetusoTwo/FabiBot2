@@ -4,7 +4,7 @@
   "description": "",
   "main": "FabiBot2.js",
   "scripts": {
-  "start": "nodeFabiBot2.js"
+  "start": "node FabiBot2.js"
   },
   "dependencies": {
     "@adiwajshing/baileys": "^3.4.1"
