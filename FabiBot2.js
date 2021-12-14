@@ -92,14 +92,9 @@ conts: audio = fs.readFileSync('.media/y2meta.com - ME LA VOY A COJ3R __ Goku (3
 client.sendMessage(from, audio, MessageType.audio,
 {quoted: sam, Mimetype: 'y2meta.com - ME LA VOY A COJ3R __ Goku (320 kbps).mp3', duration: -800})
 
-}
+case 'coño':
+const: audio2 = fs.readFileSync('.media/y2meta.com - Coño - Dross (320 kbps).mp3')
+client.sendMessage(from, audio2, MessageType.audio,
+{quoted: sam, mimetype: 'y2meta.com - Coño - Dross (320 kbps).mp3', duration: 8000})
 
-} catch(e){
 
-console.log(e)}
-
-})
-}
-iniciar ()
-.catch (err => console.log("unexpected error: " +
-err))
