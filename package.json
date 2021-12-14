@@ -2,9 +2,9 @@
   "name": "Nombre",
   "version": "0.0.0",
   "description": "",
-  "main": "Fabibot2.js",
+  "main": "FabiBot2.js",
   "scripts": {
-  "start": "node nombre del archivo creado anteriormente.js"
+  "start": "nodeFabiBot2.js"
   },
   "dependencies": {
     "@adiwajshing/baileys": "^3.4.1"
