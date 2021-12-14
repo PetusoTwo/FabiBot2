@@ -95,4 +95,5 @@ iniciar ()
 
 case 'Audios':
 client.sendMessage(from, 'Hola, Gracias por usar mi bot, los audios que puede enviar el bot, todavía no hay', text, {quoted : sam})
+break
 
