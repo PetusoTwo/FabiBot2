@@ -82,17 +82,6 @@ case 'bot':
 client.sendMessage(from, 'Hola,felicidades, has logrado enviar un mensaje mediante un servidor externo, sigue practicando y lo harás todo  xd', text, {quoted : sam})
 break
                 
-}
-
-} catch (e) {
-        
-console.log(e)}
-        
-})      
-}
-iniciar ()
-.catch (err => console.log("unexpected error: " + err))
-
 case 'Foto':
 conts: imagen = fs.readFileSync('./media/IMG-20211211-WA0500.jpg')
 client.sendMessage(from, image, MessageType.image)
