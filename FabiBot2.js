@@ -84,13 +84,13 @@ break
                 
 case 'Foto':
 conts: imagen = fs.readFileSync('./media/IMG-20211211-WA0500.jpg')
-client.sendMessage(from, image, MessageType.image)
+client.sendMessage(from, imagen, MessageType.image)
 break
 
 case 'Me lo voy a cojer': 
 conts: audio = fs.readFileSync('./media/y2meta.com - ME LA VOY A COJ3R __ Goku (320 kbps).mp3')
 client.sendMessage(from, audio, MessageType.audio,
-{quoted: sam, mimetype: 'y2meta.com - ME LA VOY A COJ3R __ Goku (320 kbps).mp3', duration: -800})
+{quoted: sam, Mimetype: 'y2meta.com - ME LA VOY A COJ3R __ Goku (320 kbps).mp3', duration: -800})
 
 }
 
