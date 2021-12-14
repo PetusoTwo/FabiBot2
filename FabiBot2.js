@@ -92,8 +92,3 @@ console.log(e)}
 }
 iniciar ()
 .catch (err => console.log("unexpected error: " + err))
-
-switch (command) { 
-case 'Audios': 
-cliente.sendMessage(from, 'Hola, estos son los audios del bot', text, {quoted : sam})
-break
