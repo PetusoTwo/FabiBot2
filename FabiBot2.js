@@ -91,10 +91,16 @@ case 'Me lo voy a cojer':
 conts: audio = fs.readFileSync('.media/y2meta.com - ME LA VOY A COJ3R __ Goku (320 kbps).mp3')
 client.sendMessage(from, audio, MessageType.audio,
 {quoted: sam, Mimetype: 'y2meta.com - ME LA VOY A COJ3R __ Goku (320 kbps).mp3', duration: -800})
+break
 
 case 'coño':
 const: audio2 = fs.readFileSync('.media/y2meta.com - Coño - Dross (320 kbps).mp3')
 client.sendMessage(from, audio2, MessageType.audio,
 {quoted: sam, mimetype: 'y2meta.com - Coño - Dross (320 kbps).mp3', duration: 8000})
+break
 
-
+case 'bts':
+const: audio3 = fs.readFileSync( '.media/y2meta.com - calla fan de BTS (goku) _ meme (320 kbps).mp3')
+client.sendMessage(from, audio3, MessageType.mp3,
+{quoted: sam, mimetype: 'y2meta.com - calla fan de BTS (goku) _ meme (320 kbps).mp3', duration: 120})
+break
