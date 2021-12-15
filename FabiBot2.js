@@ -123,6 +123,18 @@ client.sendMessage(from, audio7, MessageType.audio,
 {quoted: sam, mimetype: 'audio/mp3'})
 break
 
+case 'nesquik' 
+const audio8 = fs.readFileSync('.media/nesquik.mp3')
+client.sendMessage(from, audio8, MessageType.audio,
+{quoted: sam, mimetype: 'audio/mp3'})
+break
+
+case 'helicopter'
+const audio9 = fs.readFileSync('.media/helicóptero.mp3')
+client.sendMessage(from, audio9, MessageType.audio,
+{quoted: sam, mimetype: 'audio/mp3'})
+break
+
 }
 
 } catch (e) {
