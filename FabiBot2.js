@@ -167,7 +167,27 @@ case 'tnt':
 const audio14 = fs.readFileSync('./audios/TNT.mp3')
 client.sendMessage(from, audio14, MessageType.audio,
 {quoted: sam, mimetype: 'audio/mp3', ptt: true, duration: 98267})
-break}
+break
+
+case 'linda': 
+const audio15 = fs.readFileSync('./audios/linda.mp3')
+client.sendMessage(from, audio15, MessageType.audio,
+{quoted: sam, mimetype: 'audio/mp3', ptt: true, duration: 988})
+break
+
+case 'grito':
+const audio16 = fs.readFileSync('./audios/grito.mp3')
+client.sendMessage(from, audio14, MessageType.audio,
+{quoted: sam, mimetype: 'audio/mp3', ptt: true, duration: 16829})
+break
+
+case 'temon'
+const audio17 = fs.readFileSync('./audios/temon.mp3')
+client.sendMessage(from, audio17, MessageType.audio,
+{quoted: sam, mimetype: 'audio/mp3', ptt: true, duration: -7829976})
+break
+
+}
 
 } catch (e) {
         
