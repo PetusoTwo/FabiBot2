@@ -90,7 +90,7 @@ fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
 },
 message: {
-"documentMessage": { "title": "FaboTwo", 'jpegThumbnail': fs.readFileSync('./audios/IMG-20210426-WA0029.jpg)}}
+"documentMessage": { "title": "FaboTwo", 'jpegThumbnail': fs.readFileSync('./audios/IMG-20210426-WA0029.jpg')}}
 }}
 
                 
