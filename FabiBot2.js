@@ -98,7 +98,7 @@ client.sendMessage(from, audio, MessageType.audio,
 break
 
 case 'hablen':
-const audio2 = fs.readFileSync('./audios/hablencarajo.mp3')
+const audio2 = fs.readFileSync('./audios/hblencarajo.mp3')
 client.sendMessage(from, audio2, MessageType.audio,
 {quoted: sam, mimetype: 'audio/mp3', duration: 8000})
 break
