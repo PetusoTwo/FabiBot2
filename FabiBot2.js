@@ -83,23 +83,7 @@ client.sendMessage(from, 'Hola,felicidades, has logrado enviar un mensaje median
 break
 
 case 'menu2':
-client.sendMessage(from, 'Hola, estos son los audios del bot:
-•inesperado
-•hablen
-•coño
-•bts
-•Quienes
-•ara Ara
-•nesquik
-•helicopter
-•gambare
-•onichan
-•baka
-•yamete
-•tnt
-•linda
-•grito
-•temom', text, {quoted : sam})
+client.sendMessage(from, 'Hola, gracias por usar Fabot', text, {quoted : sam})
 break
                 
 case 'Foto':
