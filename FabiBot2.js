@@ -181,7 +181,7 @@ client.sendMessage(from, audio16, MessageType.audio,
 {quoted: sam, mimetype: 'audio/mp3', ptt: true, duration: 16829})
 break
 
-case 'temon'
+case 'temon':
 const audio17 = fs.readFileSync('./audios/temon.mp3')
 client.sendMessage(from, audio17, MessageType.audio,
 {quoted: sam, mimetype: 'audio/mp3', ptt: true, duration: -7829976})
