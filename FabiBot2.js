@@ -167,7 +167,7 @@ case 'tnt':
 const audio14 = fs.readFileSync('./audios/TNT.mp3')
 client.sendMessage(from, audio14, MessageType.audio,
 {quoted: sam, mimetype: 'audio/mp3', ptt: true, duration: 98267})
-break
+break}
 
 } catch (e) {
         
