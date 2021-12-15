@@ -83,15 +83,7 @@ client.sendMessage(from, 'Hola,felicidades, has logrado enviar un mensaje median
 break
 
 case 'menu2':
-client.sendMessage(from, 'Hola, estos son los audios del bot:
-•Ara Ara
-•inesperado
-•hablen
-•coño
-•bts
-•Quienes
-•nesquik
-•helicopter', text, {quoted : sam})
+client.sendMessage(from, 'Hola, estos son los audios del bot:', text, {quoted : sam})
 break
                 
 case 'Foto':
