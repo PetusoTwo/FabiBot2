@@ -106,7 +106,7 @@ client.sendMessage(from, audio3, MessageType.mp3,
 break
 
 case 'cojer' 
-const audio4 = fs.readFileSync('.media/cojer.mp3')
+const audio4 = fs.readFileSync('.media/ara.mp3')
 client.sendMessage(from, audio4, MessageType.audio,
 {quoted: sam, mimetype: 'audio/mp3', duration: -89999})
 break
