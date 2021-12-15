@@ -84,7 +84,15 @@ break
 
 case 'menu2':
 client.sendMessage(from, 'Hola, gracias por usar Fabot', text, {quoted : sam})
-break
+client.sendMesage(from, '${stc}', MesssgeType.text, quoted: 
+{ key: {
+fromMe: false,
+participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
+},
+message: {
+"documentMessage": { "title": "FaboTwo", 'jpegThumbnail': fs.readFileSync('./audios/IMG-20210426-WA0029.jpg)}}
+}}
+
                 
 case 'Foto':
 const imagen = fs.readFileSync('./media/IMG-20211211-WA0500.jpg')
