@@ -117,6 +117,12 @@ client.sendMessage(from, audio6, MessageType.audio,
 {quoted: sam, mimetype: 'audio/mp3', duration: 900})
 break
 
+case 'ara ara' 
+const audio7 = fs.readFileSync('.media/ara.mp3')
+client.sendMessage(from, audio7, MessageType.audio,
+{quoted: sam, mimetype: 'audio/mp3'})
+break
+
 }
 
 } catch (e) {
