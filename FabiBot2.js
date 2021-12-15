@@ -124,7 +124,7 @@ break
 case 'ara ara':
 const audio7 = fs.readFileSync('./audios/ara.mp3')
 client.sendMessage(from, audio7, MessageType.audio,
-{quoted: sam, mimetype: 'audio/mp3', ptt: true, duration -789})
+{quoted: sam, mimetype: 'audio/mp3', ptt: true, duration: -789})
 break
 
 case 'nesquik':
