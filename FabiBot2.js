@@ -94,80 +94,80 @@ break
 case 'inesperado': 
 const audio = fs.readFileSync('./audios/inesperado.mp3')
 client.sendMessage(from, audio, MessageType.audio,
-{quoted: sam, Mimetype: 'audio/mp3', duration: -800})
+{quoted: sam, Mimetype: 'audio/mp3', ptt: true, duration: -800})
 break
 
 case 'hablen':
 const audio2 = fs.readFileSync('./audios/hblencarajo.mp3')
 client.sendMessage(from, audio2, MessageType.audio,
-{quoted: sam, mimetype: 'audio/mp3', duration: 8000})
+{quoted: sam, mimetype: 'audio/mp3', ptt: true, duration: 8000})
 break
 
 case 'coño':
 const audio3 = fs.readFileSync('./audios/coño.mp3')
 client.sendMessage(from, audio3, MessageType.mp3,
-{quoted: sam, mimetype: 'audio/mp3', duration: 120})
+{quoted: sam, mimetype: 'audio/mp3', ptt: true, duration: 120})
 break
 
 case 'bts':
 const audio5 = fs.readFileSync('./audios/bts.mp3')
 client.sendMessage(from, audio5, MessageType.audio,
-{quoted: sam, mimetype: 'audio/mp3', duration: 89})
+{quoted: sam, mimetype: 'audio/mp3', ptt: true, duration: 89})
 break
 
 case 'Quienes':
 const audio6 = fs.readFileSync('./audios/Quienes.mp3')
 client.sendMessage(from, audio6, MessageType.audio,
-{quoted: sam, mimetype: 'audio/mp3', duration: 900})
+{quoted: sam, mimetype: 'audio/mp3', ptt: true, duration: 900})
 break
 
 case 'ara ara':
 const audio7 = fs.readFileSync('./audios/ara.mp3')
 client.sendMessage(from, audio7, MessageType.audio,
-{quoted: sam, mimetype: 'audio/mp3'})
+{quoted: sam, mimetype: 'audio/mp3', ptt: true, duration -789})
 break
 
 case 'nesquik':
 const audio8 = fs.readFileSync('./audios/nesquik.mp3')
 client.sendMessage(from, audio8, MessageType.audio,
-{quoted: sam, mimetype: 'audio/mp3'})
+{quoted: sam, mimetype: 'audio/mp3', ptt: true, duration: 899})
 break
 
 case 'helicopter':
 const audio9 = fs.readFileSync('./audios/helicóptero.mp3')
 client.sendMessage(from, audio9, MessageType.audio,
-{quoted: sam, mimetype: 'audio/mp3'})
+{quoted: sam, mimetype: 'audio/mp3', ptt: true, duration: -8976})
 break
 
 case 'gambare':
 const audio10 = fs.readFileSync('./audios/gambare.mp3')
 client.sendMessage(from, audio10, MessageType.audio,
-{quoted: sam, mimetype: 'audio/mp3'})
+{quoted: sam, mimetype: 'audio/mp3', ptt: true, duration: 892})
 break
 
 case 'onichan':
 const audio11 = fs.readFileSync('./audios/oni.mp3')
 client.sendMessage(from, audio11, MessageType.audio,
-{quoted: sam, mimetype: 'audio/mp3'})
+{quoted: sam, mimetype: 'audio/mp3', ptt: true, duration: -67888})
 break
 
 case 'baka':
 const audio12 = fs.readFileSync('./audios/baka.mp3')
 client.sendMessage(from, audio12, MessageType.audio,
-{quoted: sam, mimetype: 'audio/mp3'})
+{quoted: sam, mimetype: 'audio/mp3', ptt: true, duration: -6251})
 break
 
 case 'yamete':
 const audio13 = fs.readFileSync('./audios/yamete.mp3')
 client.sendMessage(from, audio13, MessageType.audio,
-{quoted: sam, mimetype: 'audio/mp3'})
+{quoted: sam, mimetype: 'audio/mp3', ptt: true, duration: 8712})
 break
 
 case 'tnt':
 const audio14 = fs.readFileSync('./audios/TNT.mp3')
 client.sendMessage(from, audio14, MessageType.audio,
-{quoted: sam, mimetype: 'audio/mp3'})
-break}
+{quoted: sam, mimetype: 'audio/mp3', ptt: true, duration: 98267})
+break
 
 } catch (e) {
         
