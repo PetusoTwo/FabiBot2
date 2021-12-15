@@ -81,6 +81,18 @@ switch (command) {
 case 'bot':
 client.sendMessage(from, 'Hola,felicidades, has logrado enviar un mensaje mediante un servidor externo, sigue practicando y lo harás todo  xd', text, {quoted : sam})
 break
+
+case 'menu2':
+client.sendMessage(from, 'Hola, estos son los audios del bot:
+•Ara Ara
+•inesperado
+•hablen
+•coño
+•bts
+•Quienes
+•nesquik
+•helicopter', text, {quoted : sam})
+break
                 
 case 'Foto':
 const imagen = fs.readFileSync('./media/IMG-20211211-WA0500.jpg')
