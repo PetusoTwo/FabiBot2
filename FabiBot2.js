@@ -83,7 +83,7 @@ client.sendMessage(from, 'Hola,felicidades, has logrado enviar un mensaje median
 break
 
 case 'menu2':
-client.sendMessage(from, 'Hola, gracias por usar Fabot', text, {quoted : sam})
+client.sendMessage(from, 'Hola, gracias por usar Fabot', text})
 client.sendMesage(from, '${stc}', MesssgeType.text, {quoted: 
 { key: {
 fromMe: false,
