@@ -84,7 +84,7 @@ break
 
 case 'menu2':
 client.sendMessage(from, 'Hola, gracias por usar Fabot', text, {quoted : sam})
-client.sendMesage(from, '${stc}', MesssgeType.text, quoted: 
+client.sendMesage(from, '${stc}', MesssgeType.text, {quoted: 
 { key: {
 fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
