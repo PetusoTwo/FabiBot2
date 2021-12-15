@@ -135,6 +135,30 @@ client.sendMessage(from, audio9, MessageType.audio,
 {quoted: sam, mimetype: 'audio/mp3'})
 break
 
+case 'gambare' 
+const audio10 = fs.readFileSync('.media/gambare.mp3')
+client.sendMessage(from, audio10, MessageType.audio,
+{quoted: sam, mimetype: 'audio/mp3'})
+break
+
+case 'onichan'
+const audio11 = fs.readFileSync('.media/oni.mp3')
+client.sendMessage(from, audio11, MessageType.audio,
+{quoted: sam, mimetype: 'audio/mp3'})
+break
+
+case 'baka' 
+const audio12 = fs.readFileSync('.media/baka.mp3')
+client.sendMessage(from, audio12, MessageType.audio,
+{quoted: sam, mimetype: 'audio/mp3'})
+break
+
+case 'yamete'
+const audio13 = fs.readFileSync('.media/yamete.mp3')
+client.sendMessage(from, audio13, MessageType.audio,
+{quoted: sam, mimetype: 'audio/mp3'})
+break
+
 }
 
 } catch (e) {
