@@ -79,7 +79,7 @@ const pushname = sam.key.fromMe ? client.user.name : conts.notify || conts.vname
 switch (command) {
 
 case 'bot':
-client.sendMessage(from, 'Hola,felicidades, has logrado enviar un mensaje mediante un servidor externo, sigue practicando y lo harás todo  xd', text, {quoted : sam})
+client.sendMessage(from, 'Hola,gracias por usar mi bot, estoy haciendo lo mejor que puedo, Creador: Wa.me//+51938159445', text, {quoted : sam})
 break
 
 case 'menu2':
