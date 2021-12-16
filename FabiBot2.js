@@ -93,6 +93,26 @@ message: {
 }})
 break
 
+case 'nivel':
+const getLevel1 = getLevelingLevel(sender)
+const lvup =  `✴ _*🧗🏻‍♂️Nivel Actual!͟*_ ✴
+	
+𓆩*𓆪 *💠 Nombre:* ${pushname} 𓆩*𓆪
+	
+┎┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+✨XP: ${getLevelingXp(sender)}
+📚Nivel: ${getLevel1} ➫ ${getLevelingLevel(sender)}
+🕋rango: ${rango}
+┖┈┈┈┈┈┈┈┈┈┈┈┈┈┈`
+client.sendMessage(from, lvup, MessageType.text, {quoted: { key: {                
+fromMe: false,
+participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
+},
+message: {
+"documentMessage": { "title": `✍🏻Nivel ${nivelActual}`, 'jpegThumbnail': fs.readFileSync('./audios/IMG-20210426-WA0029.jpg')}
+}}
+})
+break
                 
 case 'Foto':
 const imagen = fs.readFileSync('./media/IMG-20211211-WA0500.jpg')
